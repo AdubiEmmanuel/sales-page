@@ -1,10 +1,11 @@
 import './App.css'
+import Features from './pages/features'
 
 function App() {
 
   return (
     <>
-      <h3>Sales page</h3>
+      <Features/>
     </>
   )
 }

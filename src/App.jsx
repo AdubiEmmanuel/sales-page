@@ -5,6 +5,7 @@ function App() {
 
   return (
     <>
+      <h3>Hello home</h3>
       <Features/>
     </>
   )

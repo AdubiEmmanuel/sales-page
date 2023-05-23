@@ -1,14 +1,18 @@
-import './App.css'
-import Features from './pages/features'
+import "./App.css";
+import Hero from "./pages/Hero";
+import MainContent from "./pages/MainContent";
+import Footer from "./pages/Utilities/Footer";
+import Navbar from "./pages/Utilities/Navbar";
 
 function App() {
-
   return (
     <>
-      <h3>Hello home</h3>
-      <Features/>
+      <Navbar />
+      <Hero />
+      <MainContent />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

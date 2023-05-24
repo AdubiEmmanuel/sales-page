@@ -26,15 +26,17 @@ export default function Hero() {
                     <span className="w-2 h-2 bg-white rounded-full"></span>
                   </div>
                   <div className="rounded-b-xl w-full align-middle h-[calc(100vh_-_10.75rem)] p-5">
-                    <iframe
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4brRKwiW3Ns"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
+                    <div className="md:w-32 lg:w-48">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/4brRKwiW3Ns"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
                   </div>
                 </div>
               </div>

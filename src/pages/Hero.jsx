@@ -32,7 +32,7 @@ export default function Hero() {
                     Quality Nigerian Food Stuff Delivered to Your Doorstep!
                   </p>
                   <a href="https://wa.me/2347088278219">
-                    <button className="font-bold bg-black text-white rounded-full p-5 my-2 text-2xl flex items-center relative mx-auto">
+                    <button className="font-bold bg-black text-white rounded-full p-5 my-2 text-2xl flex items-center relative mx-auto my-10">
                       <BsFillCartFill />
                       Order Now
                     </button>
@@ -40,7 +40,7 @@ export default function Hero() {
                   <iframe
                     // width="560"
                     // height="315"
-                    className="w-full aspect-video "
+                    className="w-full aspect-video"
                     src="https://www.youtube.com/embed/4brRKwiW3Ns"
                     title="YouTube video player"
                     frameborder="0"

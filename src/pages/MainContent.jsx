@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import features from "./post";
+import { BsFillCartFill } from "react-icons/bs";
 
 export default function MainContent() {
   return (
@@ -41,13 +42,45 @@ export default function MainContent() {
                 </dl>
               </div>
             </div>
-            <img
-              src="https://www.instagram.com/p/Csiy4iMsWep/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
-              alt="Product screenshot"
-              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-              width={2432}
-              height={1442}
-            />
+
+            <a href="https://wa.me/2347088278219">
+              <button className="font-bold bg-black text-white rounded-full p-5 my-2 text-2xl flex items-center relative mx-auto my-0">
+                <BsFillCartFill />
+                Order Now
+              </button>
+              <img
+                src="assets/images/mcTimmy.jpg"
+                alt="Our Products"
+                className="w-[100%] max-w-none rounded-x1 shadow-xl ring-1 ring-gray-400/10 lg:w-[40rem] md:w-[30rem] sm:w-[57rem] p-5 align-center"
+                // width={2432}
+                // height={1442}
+              />
+            </a>
+            <a href="https://wa.me/2347088278219">
+              <button className="font-bold bg-black text-white rounded-full p-5 my-2 text-2xl flex items-center relative mx-auto my-0">
+                <BsFillCartFill />
+                Order Now
+              </button>
+              <img
+                src="assets/images/ofada.jpg"
+                alt="ofada rice"
+                className="w-[100%] max-w-none rounded-x1 shadow-xl ring-1 ring-gray-400/10 lg:w-[40rem] md:w-[30rem] sm:w-[57rem] p-5 align-center"
+                // width={2432}
+                // height={1442}
+              />
+            </a>
+
+            <a href="https://wa.me/2347088278219">
+              <button className="font-bold bg-black text-white rounded-full p-5 my-2 text-2xl flex items-center relative mx-auto my-0">
+                <BsFillCartFill />
+                Order Now
+              </button>
+              <img
+                src="assets/images/ponmon.jpeg"
+                alt="Ponmon"
+                className="w-[100%] max-w-none rounded-x1 shadow-xl ring-1 ring-gray-400/10 lg:w-[40rem] md:w-[30rem] sm:w-[57rem] p-5 align-center"
+              />
+            </a>
           </div>
         </div>
       </div>

@@ -26,10 +26,11 @@ export default function Hero() {
                     <span className="w-2 h-2 bg-white rounded-full"></span>
                   </div>
                   <div className="rounded-b-xl w-full align-middle h-[calc(100vh_-_10.75rem)] p-5">
-                    <div className="md:w-32 lg:w-48">
+                    <div className="md:w-32 lg:w-48 lg:col-12 md:col-6 sm:col-12">
                       <iframe
-                        width="560"
+                        // width="560"
                         height="315"
+                        className="sm:w-[]"
                         src="https://www.youtube.com/embed/4brRKwiW3Ns"
                         title="YouTube video player"
                         frameborder="0"

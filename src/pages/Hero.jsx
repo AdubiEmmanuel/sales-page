@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import MainContent from './MainContent';
+import {BsFillCartFill} from 'react-icons/bs'
+import { AiOutlineMenu, AiOutlineSearch} from 'react-icons/ai';
 
 export default function Hero() {
     return (
@@ -26,18 +28,25 @@ export default function Hero() {
                     <span className="w-2 h-2 bg-white rounded-full"></span>
                   </div>
                   <div className="rounded-b-xl w-full align-middle h-[calc(100vh_-_10.75rem)] p-5">
-                    <div className="md:w-32 lg:w-48 lg:col-12 md:col-6 sm:col-12">
-                      <iframe
-                        // width="560"
-                        height="315"
-                        className="sm:w-[]"
-                        src="https://www.youtube.com/embed/4brRKwiW3Ns"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                      ></iframe>
-                    </div>
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                      Quality Nigerian Food Stuff Delivered to Your Doorstep!
+                    </p>
+                    <button className="font-bold bg-black text-white rounded-full p-5 my-2 text-2xl flex items-center relative mx-auto">
+                      <BsFillCartFill />
+                      <a href="api.whatsapp.com/send?phone=+2347088278219">
+                        Order Now
+                      </a>
+                    </button>
+                    <iframe
+                      // width="560"
+                      // height="315"
+                      className="w-full align-middle h-[calc(100vh_-_10.75rem)] pb-20"
+                      src="https://www.youtube.com/embed/4brRKwiW3Ns"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
                   </div>
                 </div>
               </div>

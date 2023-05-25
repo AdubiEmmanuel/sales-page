@@ -14,7 +14,7 @@ export default function MainContent() {
                   Best quality food stuff!
                 </h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                  Quality Nigerian Food Stuff Delivered to Your Doorstep!
+                  McTimmy Variety Foods
                 </p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Attention everyone! Do you live in Abuja or planning to travel
@@ -42,7 +42,7 @@ export default function MainContent() {
               </div>
             </div>
             <img
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+              src="assets/images/features-bg.png"
               alt="Product screenshot"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
               width={2432}

@@ -23,11 +23,11 @@ export default function MainContent() {
                   you covered! Say goodbye to market stress and let us provide
                   you with the finest quality food money can buy. Our value
                   proposition is to ensure you enjoy a hassle-free experience
-                  while enjoying the best Nigerian cuisine. Don't
-                  miss out on the opportunity to indulge in quality Nigerian
-                  cuisine. Place your order with MC Timmy Variety Foods today
-                  and experience the joy of savoring delicious meals made with
-                  love and care. Click the Link Below to Order Now!
+                  while enjoying the best Nigerian cuisine. Don't miss out on
+                  the opportunity to indulge in quality Nigerian cuisine. Place
+                  your order with MC Timmy Variety Foods today and experience
+                  the joy of savoring delicious meals made with love and care.
+                  Click the Link Below to Order Now!
                 </p>
                 <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                   {features.map((feature) => (
@@ -42,7 +42,7 @@ export default function MainContent() {
               </div>
             </div>
             <img
-              src="assets/images/features-bg.png"
+              src="https://www.instagram.com/p/Csiy4iMsWep/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
               alt="Product screenshot"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
               width={2432}
